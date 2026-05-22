@@ -9,12 +9,12 @@ The project focuses on layout structure, typography, spacing, and responsive des
 
 ## Screenshot
 
-![Project screenshot](screenshot\screenshot-desktop.png)
+![Project screenshot](./screenshot/screenshot-desktop.png)
 
 ## Links
 
-* Live Site URL: [Add live site URL here]
-* Frontend Mentor Solution: [Add solution URL here]
+* [Live Site URL](https://recipe-page-lilac-six.vercel.app/)
+* [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/recipe-page-built-using-html-css-flexbox-and-bem-pV3iaalUE7)
 
 ## Built With
 
