@@ -1,0 +1,140 @@
+/* VARIABLES */
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  /* Colors */
+  --white: hsl(0, 0%, 100%);
+
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+
+  --brown-800: hsl(14, 45%, 36%);
+
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+
+  --container-width: 1400px;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+}
+
+body {
+  font-family: Outfit;
+  font-size: 1rem;
+  color: var(--stone-600);
+  line-height: 1.8;
+}
+
+.container {
+  background-color: var(--white);
+}
+
+.header__image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.main {
+  padding: var(--space-sm) var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.main__title {
+  font-family: Young Serif;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--stone-150);
+}
+
+.list-content {
+  padding: 0 var(--space-sm);
+}
+
+.preparation {
+  background-color: var(--rose-50);
+  padding: var(--space-sm);
+  border-radius: var(--space-xs);
+}
+
+.preparation__title {
+  color: var(--rose-800);
+}
+
+.title {
+  font-family: Young Serif;
+  color: var(--brown-800);
+}
+
+.nutrition__table {
+  margin-top: var(--space-sm);
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.nutrition__row {
+  border-bottom: 1px solid black;
+}
+
+.nutrition__row td {
+  padding-left: var(--space-sm);
+}
+
+.nutrition__value {
+  color: var(--brown-800);
+  font-weight: 600;
+}
+
+.nutrition__row:last-child {
+  border-bottom: none;
+}
+
+.footer__attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: var(--stone-100);
+
+    display: flex;
+    justify-content: center;
+
+    padding: var(--space-md);
+  }
+
+  .container {
+    max-width: 740px;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+
+  .header {
+    padding: var(--space-md);
+  }
+
+  .header__image {
+    display: block;
+  }
+
+  .header__image {
+    border-radius: var(--space-sm);
+  }
+}
